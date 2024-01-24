@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package gm.cuentas.repositorio;
 
 import gm.cuentas.modelo.Cuenta;
@@ -6,3 +7,13 @@ import org.springframework.data.jpa.repository.JpaRepository;
 public interface CuentaRepositorio extends JpaRepository<Cuenta, Integer> {
 
 }
+=======
+package gm.cuentas.repositorio;
+
+import gm.cuentas.modelo.Cuenta;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CuentaRepositorio extends JpaRepository<Cuenta, Integer> {
+
+}
+>>>>>>> a5d00601b59c4ef50c903a5a5f408a5e7a73ab8b
